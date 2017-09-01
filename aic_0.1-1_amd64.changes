@@ -1,0 +1,49 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Thu, 31 Aug 2017 20:44:17 -0700
+Source: aic
+Binary: aic
+Architecture: source all
+Version: 0.1-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Colby Connolly <protheophage@gmail.com>
+Changed-By: Colby Connolly <protheophage@gmail.com>
+Description:
+ aic        - <insert up to 60 chars description>
+Changes:
+ aic (0.1-1) unstable; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 361f700b60e64a0b625e0593f47e85fc88d1cd9d 1341 aic_0.1-1.dsc
+ 74cf00595b428cd072146443b1fc3ff0122d7ba7 1908 aic_0.1.orig.tar.xz
+ 3eaf059104d4a7c35f5ee85e29df43a68d167167 2968 aic_0.1-1.debian.tar.xz
+ ce0844e493af6bc0da9cd51c6cbc2f5e92a02b28 3006 aic_0.1-1_all.deb
+ cad2aee3ff7019330227e877c9e5cde41333e8cf 5238 aic_0.1-1_amd64.buildinfo
+Checksums-Sha256:
+ 48277d455328a98250f26748c1e4f6fd710ea92ecb9a7493e7b941e25345cf0b 1341 aic_0.1-1.dsc
+ 2e7874b757f03f3f92181d64d12f2684e76aea3cdc807e61f02ad3bb233f3a58 1908 aic_0.1.orig.tar.xz
+ 714a7db47c689ed65b1d4112c582aedf1517d4b71a5ba9d9b2e88d7bc265d34a 2968 aic_0.1-1.debian.tar.xz
+ 5b468af2727b37230739a51ead0a95fae91a776ea7c619e581764a9073c02669 3006 aic_0.1-1_all.deb
+ 49f547348f318d3b3055d07f1f81b0a4372feaf6f85f493f4a153118c38459f8 5238 aic_0.1-1_amd64.buildinfo
+Files:
+ 02537007e5f35eaeaa9ffe57f3ec21f7 1341 unknown optional aic_0.1-1.dsc
+ dca8f08c584b0dd9013c146b2cb0e6e6 1908 unknown optional aic_0.1.orig.tar.xz
+ 075e79ef57e5c0c6fd2e5bb2b164c9cc 2968 unknown optional aic_0.1-1.debian.tar.xz
+ 6384742451cad827598434bbf2330897 3006 unknown optional aic_0.1-1_all.deb
+ 56b8bd0b1446d685d42088cb53d80511 5238 unknown optional aic_0.1-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQFLBAEBCAA1FiEE23Oc1mYbwTGudkLNWaBVsT+bU9QFAlmphn0XHHByb3RoZW9w
+aGFnZUBnbWFpbC5jb20ACgkQWaBVsT+bU9QEDAgAlChtblXs6bs3mhiyZKNqTmFu
+R/rOzGqt9szPoTCkf3PaNQUbLavxeMZApmY1QmWLeu1AUsTjwd86EpYV4gFYVifa
+WxBznTKA9rn4sdTyspN9q0QZdqQ4dEDjjZUc97IyDKAsfnF3r3Qg4CtvxR0bpRWa
+IV/rSg1gpVZTyqYA99WUpE/P16gqyNufEaIQBZwMO1gGJZlGiLV3u4O4GuN2oHgo
+DPOi/V+eETkUXKaudPkvEdgyatBDvchZB2EbjVNIxHb1vbYMLJmx+t52Z8bk/Tm0
+YlLwH9z+aTeIuy4/AwqNAimgGZiDrVperp4owKM3A09WWI0IwB4dSC9c4C2rFQ==
+=Juc/
+-----END PGP SIGNATURE-----
