@@ -1,3 +1,5 @@
 60202a6593656e9bd53e982f448f67ea  usr/bin/aic
-f2aa26cc59d51b0beb1675794aa5c524  usr/share/doc/aic/changelog.Debian.gz
+93ceb3ec48d431e27a0970a086df290f  usr/share/doc/aic/README.Debian
+07f30a46655360878c9c70a16b991d65  usr/share/doc/aic/changelog.Debian.gz
 ac4b331b861e269bb07643b2689eb3ca  usr/share/doc/aic/copyright
+ed12dad8ce6399ccf02c95b56f455def  usr/share/man/man1/aic.1.gz
