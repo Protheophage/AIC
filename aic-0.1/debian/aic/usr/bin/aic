@@ -111,4 +111,15 @@ dc3dd if="$(head -$f /root/Documents/ilist.txt | tail -1)" hof=$g/$ttle$f.dd has
 f=`expr $f + 1`
 done
 
+#HOUSE CLEANING (1)
+
+#Remove all text files created by aic
+rm -f /root/Documents/mnt.txt
+rm -f /root/Documents/devs.txt
+rm -f /root/Documents/flagname.txt
+rm -f /root/Documents/flagd.txt
+rm -f /root/Documents/fdevs.txt
+rm -f /root/Documents/live.txt
+rm -f /root/Documents/ilist.txt
+
 #Written by Colby Connolly 2016

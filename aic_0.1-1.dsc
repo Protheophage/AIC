@@ -13,23 +13,23 @@ Build-Depends: debhelper (>= 9)
 Package-List:
  aic deb unknown optional arch=all
 Checksums-Sha1:
- 44a6415b474095e85aa33222f911639bbbdeac72 1128 aic_0.1.orig.tar.xz
- 99d885c6e65b4c6179cba4866a7758688b03ac88 3012 aic_0.1-1.debian.tar.xz
+ 211575ef5115c9ef3849ef9428e154045c0c1074 4004 aic_0.1.orig.tar.xz
+ 0347cae0b2ff9570c2669d75f738232fe0594690 3092 aic_0.1-1.debian.tar.xz
 Checksums-Sha256:
- 1a0714ca27ef97e8cc9cfaf3961c81666315373ca0dfac545a95b8cd218a8135 1128 aic_0.1.orig.tar.xz
- 609121b5d24371429286cc3f8785d8c7def888278fb2dc6983a673a61e0465b3 3012 aic_0.1-1.debian.tar.xz
+ f5f4a0aa0975955826fd63a5af76bad6b93ff349579178199f2ec483984e7ada 4004 aic_0.1.orig.tar.xz
+ 91bd0dfeee6bd10b6b1fe6d0039338cb79eaef2c08374f00b1d473b81bbee12c 3092 aic_0.1-1.debian.tar.xz
 Files:
- 04cd5e5dbe400481215b35eb670d91ca 1128 aic_0.1.orig.tar.xz
- 1dbf52c484e8764a3046498a26a0ba0c 3012 aic_0.1-1.debian.tar.xz
+ dd88c558a8aa6f663b673a6a81aabc22 4004 aic_0.1.orig.tar.xz
+ b4696262049f583fe023c77e171b3393 3092 aic_0.1-1.debian.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iQFLBAEBCAA1FiEE23Oc1mYbwTGudkLNWaBVsT+bU9QFAlmrIbsXHHByb3RoZW9w
-aGFnZUBnbWFpbC5jb20ACgkQWaBVsT+bU9RXOwgAo01IGxyeanMbWQpqrTB/cJEq
-72QgFHQwoGbMRBjPDUtAiUbc4qI86qGG3/OJvQFGHnaWmoKPVSNipk848IkNwMUr
-dcvTUc/ivm7lu1nmtZMAIF8PfoBTvkfCbQwowXcI7ll/qOk0G0IrpsRgHC4pYDrk
-yHVlmFrhvjtKtMcMiKai/OAPOM4gM+/uhacAfDqX0gpgHo45QTZ6tJv5rG3jjai4
-JLb/oBJZSqwZ2doCpJd0kIQ/Q7ANsOUrbDWTMGCsI0fTV/Yx/LMKKhpvACnV8pbC
-mRkCwTWppEVk9TcSfZxzeT78bvTDq+kFAEdH7e0UzMQS084jvrVGDJHOIcRZoA==
-=i9Pj
+iQFLBAEBCAA1FiEE23Oc1mYbwTGudkLNWaBVsT+bU9QFAlmrLbAXHHByb3RoZW9w
+aGFnZUBnbWFpbC5jb20ACgkQWaBVsT+bU9T7lQf9FoSvstWxkWVbBBPW6f+IbYk6
+sk6276ku9VeLl6GfYGfclQ0nrjXdxxzknJaVwPd5FhuaossLILjpTpSzHXWlk/gs
+AciBJ/CWaifiO9RSOc+iGy7w6L0fNA97wndzp21l4zajKgeBrFlsoLWDYvXORF43
+jXEKJ/ebjW7FyCXiHmObzm1IdG0RMM2xOzuFFeD84AJ7bMmPXI7+7q8xoOiPls3/
+jIPTj6rqdlb1wRlX5pufE3wPAGYZGJ11Y3+w3qUfJI/+sU9OCz83rAqaFaEEtVUG
+qbxcVPoP8kdfiET5AKAD0833ze43qHcBRSmiG3EGPnqdmUPSEOqJq64TeWhJcQ==
+=aOPM
 -----END PGP SIGNATURE-----
