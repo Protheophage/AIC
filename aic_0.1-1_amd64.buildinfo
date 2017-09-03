@@ -7,17 +7,17 @@ Binary: aic
 Architecture: all source
 Version: 0.1-1
 Checksums-Md5:
- b4885b4cdd42f605901197db4d17919f 1341 aic_0.1-1.dsc
- 4939dee9b6682e8ec1c26b199dac11b3 4368 aic_0.1-1_all.deb
+ 54e33e327a056ad6493592c4373a515b 1341 aic_0.1-1.dsc
+ acf545026b0970b2b9b51f0de6534636 4296 aic_0.1-1_all.deb
 Checksums-Sha1:
- 7bec349942822b39fa015f766df1bb3076e8fd88 1341 aic_0.1-1.dsc
- 110fabb122ac0383c0f94bba951e1eb47837d974 4368 aic_0.1-1_all.deb
+ 97b5137a61e71b9565eea447aba87c39bc0d09ab 1341 aic_0.1-1.dsc
+ 398237469e289d66899bbf31f01bb017de051bc7 4296 aic_0.1-1_all.deb
 Checksums-Sha256:
- 6ad8d18e7c9dfe3762ea58852f75a7fd9dcd1f22150e6babcda6065f52e11fd8 1341 aic_0.1-1.dsc
- 392815687ccbc6beb23e6aefdd72149de00cfa94cd4325cef3865f9ed441f54b 4368 aic_0.1-1_all.deb
+ ba692688f3e0ac1ef4656efe1eab78e7c24ea1f759df3265de17e4f046225d3d 1341 aic_0.1-1.dsc
+ d86c7f12dca3caa0fd790a5798bdf715255c74c4fd959a590dffe00064b8c764 4296 aic_0.1-1_all.deb
 Build-Origin: Kali
 Build-Architecture: amd64
-Build-Date: Sat, 02 Sep 2017 15:16:15 -0700
+Build-Date: Sat, 02 Sep 2017 18:12:27 -0700
 Installed-Build-Depends:
  autoconf (= 2.69-11),
  automake (= 1:1.15.1-2.1),
@@ -176,12 +176,12 @@ Environment:
 
 -----BEGIN PGP SIGNATURE-----
 
-iQFLBAEBCAA1FiEE23Oc1mYbwTGudkLNWaBVsT+bU9QFAlmrLbwXHHByb3RoZW9w
-aGFnZUBnbWFpbC5jb20ACgkQWaBVsT+bU9R3nwf/Z9nlEBTrEkJHOqNmqDx7ce7O
-7C3+ove/spVOvuvwSSzyuZn7MobNImzdIyNRa1oF2a/HKC8QZilc/bdaA4rWav81
-b/ZZ7lfj6hDluDJp8ycY9eH6Tf74qc5gQVnW/Z5PX++5DrpjiQjBj4KuTjkufxIv
-Pz9SZIptj28ZYZivlaRW1ek6ySYd8Vt6fNR13yIUHguFYH0l5tBIfQ8H2OiaX443
-nMsjOfCFmcbuKbrHS3ptZBAaWYVJI2j/T1cWwmUaMCnuFUh0cO19sBz4WvBeCsNM
-CDfLZj7J7t2E8zSC6GRf/Bu/i42/PB3MMyIWF93hwvSBbl5lkELkuuTLe2jJeA==
-=L8vr
+iQFLBAEBCAA1FiEE23Oc1mYbwTGudkLNWaBVsT+bU9QFAlmrVwkXHHByb3RoZW9w
+aGFnZUBnbWFpbC5jb20ACgkQWaBVsT+bU9QYhwf+N9ZY/VdixfNXJ/oB2DVPRVHs
+y1f2mH//pG3bb+kGzPbAX/zN1rEs+oVF19Pi1zew3O+SwPyiGqPoYSxV83f4n5ec
+xb0UHDBbEiD7XS6MVGBn+zF6h3QSVQFCPek+jOm8wcW7yO5ZaiIVMxqbuj8oUgZt
+YIvrd9EFcugQ8Vx7erLsyxfoD8a53rItz9IyCv1+ULzUpi5PuBhCT+Y26FkfMLXg
+vEjLbkd5/vx6SsgbrNtz1ZTiFnQU0cbFizpAbW0+c/AM/5MBOc9hwmSln/yVy9nd
+qAf1yWSioCZtLmCgepxpGnJulsIHxf6SjavQp6EW7SGjB1KRVV4NFNibMeTEfQ==
+=FbWb
 -----END PGP SIGNATURE-----
