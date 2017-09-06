@@ -7,13 +7,15 @@ aic \- Automated Image Collector
 .B aic
 .SH DESCRIPTION
 .PP
-	Finds all storage devices attached to the computer, and forensically images them to the "flag" directory "uunique_dirrr_nammme" on a destination device.
+Finds all storage devices attached to the computer, and forensically images them to the "flag" directory "uunique_dirrr_nammme" on a destination device.
 
-	This tool was designed to be used with a live Linux distribution. In order for this tool to function properly, the destination device must have a directory named "uunique_dirrr_nammme" located in the root directory. In order to ignore the live usb while imageing, there must also be a "flag" directory in the / of the live usb drive named "iignoree_meee". Note that this is not the / of the OS, but is located above the OS.
+In order for this tool to function properly, the destination device must have a directory named "uunique_dirrr_nammme" located in the root directory. Devices, such as the device with the OS, may be set to be ignored during imaging by placing a "flag" directory in the / of the device named "iignoree_meee" Note that this is not the / of the OS, but is located above the OS.
 
-	This tool was created with and tested on Kali Linux.
+Automated Image Collector (aic) was created with the idea that it would be used on a live Linux USB for easy automated field imaging.
 
-	This tool has been tested, and found to create images in a forensically sound manner. This means that:
+This tool was created with and tested on Kali Linux.
+
+This tool has been tested, and found to create images in a forensically sound manner. This means that:
 	1)All devices, excluding the destination device, are mounted in a read only state.
 	2)None of the files are altered from their original state.
 	3)The created images are created in a raw/dd format.
@@ -21,14 +23,18 @@ aic \- Automated Image Collector
 
 .SH OPTIONS
 This program asks for some user input when started.
+
 .SH CREDITS
 This tool uses the following programs to accomplish the desired tasks:
 UMOUNT FDISK GREP MKDIR ECHO MOUNT HEAD TAIL FIND READ SED
 For information about these tools please see the appropriate manual pages (i.e. man umount)
+
 .SH AUTHOR
 Written by Colby Connolly
+
 .SH "REPORTING BUGS"
 protheophage@gmail.com
+
 .SH COPYRIGHT
 Copyright \(co 2016 Free Software Foundation, Inc.
 License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>

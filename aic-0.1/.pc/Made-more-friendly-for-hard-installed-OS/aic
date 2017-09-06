@@ -77,22 +77,13 @@ findmnt -M $(grep -o '/media/root/device..' /root/Documents/flagname.txt) -o sou
 #Remove the destination device from the imaging list
 grep -vwE "$(grep -o "/dev/sd." /root/Documents/flagd.txt)" /root/Documents/devs.txt > /root/Documents/fdevs.txt
 
-#Find device(s) to be ignored
+#Find live usb
 find /media/root -maxdepth 2 -iname 'iignoree_meee' > /root/Documents/live.txt
 
-#Create Counters
-l=$(grep -c '.' /root/Documents/live.txt
-m=1
+#Identify live usb
+findmnt -M $(grep -o '/media/root/device..' /root/Documents/live.txt) -o source > /root/Documents/flagd.txt
 
-#Identify device(s) to be ignored
-touch /root/Documents/flagd.txt
-while [ $m -le $l ]
-do
-findmnt -M $(head -$m /root/Documents/live.txt | tail -1 | grep -o '/media/root/device..') -o source >> /root/Documents/flagd.txt
-m=`expr $m + 1`
-done
-
-#Remove ignored device(s) from imaging list
+#Remove live usb from imaging list
 grep -vwE "$(grep -o "/dev/sd." /root/Documents/flagd.txt)" /root/Documents/fdevs.txt > /root/Documents/devs.txt
 
 #Clean up imaging list
@@ -130,7 +121,5 @@ rm -f /root/Documents/flagd.txt
 rm -f /root/Documents/fdevs.txt
 rm -f /root/Documents/live.txt
 rm -f /root/Documents/ilist.txt
-umount -a
-rmdir /media/root/dev*
 
 #Written by Colby Connolly 2016

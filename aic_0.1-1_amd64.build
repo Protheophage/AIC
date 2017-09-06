@@ -65,6 +65,7 @@ E: aic: description-is-dh_make-template
 E: aic: section-is-dh_make-template
 W: aic: superfluous-clutter-in-homepage <insert the upstream URL, if relevant>
 W: aic: bad-homepage <insert the upstream URL, if relevant>
+E: aic: shell-script-fails-syntax-check usr/bin/aic
 Finished running lintian.
 Now signing changes and any dsc files...
  signfile dsc aic_0.1-1.dsc Colby Connolly <protheophage@gmail.com>

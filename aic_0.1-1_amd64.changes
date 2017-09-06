@@ -18,32 +18,32 @@ Changes:
  .
    * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 Checksums-Sha1:
- 97b5137a61e71b9565eea447aba87c39bc0d09ab 1341 aic_0.1-1.dsc
+ 10eeb3186de59190e53417dfc562c8e90a794920 1341 aic_0.1-1.dsc
  211575ef5115c9ef3849ef9428e154045c0c1074 4004 aic_0.1.orig.tar.xz
- f5453feb79e8907a6d1bb3babeb4b5eb326fa315 3012 aic_0.1-1.debian.tar.xz
- 398237469e289d66899bbf31f01bb017de051bc7 4296 aic_0.1-1_all.deb
- 16683453bb99d3f13da04fd173d48d90fb3f69f7 5238 aic_0.1-1_amd64.buildinfo
+ d427127d91cc1d83fe5c1321be60303d2a780be4 3892 aic_0.1-1.debian.tar.xz
+ 2d19ed5693216647b3452b78fd91537ab74a59b3 4388 aic_0.1-1_all.deb
+ b59fc1fce8a00341a530ac27cc7b69141b6d15ad 5238 aic_0.1-1_amd64.buildinfo
 Checksums-Sha256:
- ba692688f3e0ac1ef4656efe1eab78e7c24ea1f759df3265de17e4f046225d3d 1341 aic_0.1-1.dsc
+ 76ab9b47a5f75382d206f723b69014e45e29faeff8e02b34564a5a1cd60c408e 1341 aic_0.1-1.dsc
  f5f4a0aa0975955826fd63a5af76bad6b93ff349579178199f2ec483984e7ada 4004 aic_0.1.orig.tar.xz
- ec55e710be224ae57b1623eafaee24ce650dcc63d1e878c0f6477b6524904e85 3012 aic_0.1-1.debian.tar.xz
- d86c7f12dca3caa0fd790a5798bdf715255c74c4fd959a590dffe00064b8c764 4296 aic_0.1-1_all.deb
- cee8cb187e5a1a62a345067e347be440b9aa8d0f2eb0c1919721d74e04e3bd6e 5238 aic_0.1-1_amd64.buildinfo
+ 37e418ea0b465ab9a8f0f66e7c279ec23751e00500d578af93d40a5c6c8844de 3892 aic_0.1-1.debian.tar.xz
+ e685a0f17b3e044bde5b421fb47d5c5cff4b6759d7a4d57cd1d70dc1ea2073b0 4388 aic_0.1-1_all.deb
+ ba1281ebc9eb066e9ddfee56ad75887d82767e7ec3607fdba16f6d7a8fb603d3 5238 aic_0.1-1_amd64.buildinfo
 Files:
- 54e33e327a056ad6493592c4373a515b 1341 unknown optional aic_0.1-1.dsc
+ 088c570fc6a8379a24f93290442f1a4f 1341 unknown optional aic_0.1-1.dsc
  dd88c558a8aa6f663b673a6a81aabc22 4004 unknown optional aic_0.1.orig.tar.xz
- 07eaed9b719287eac9e79b8a8b9f6089 3012 unknown optional aic_0.1-1.debian.tar.xz
- acf545026b0970b2b9b51f0de6534636 4296 unknown optional aic_0.1-1_all.deb
- e73c98acf6bebb7c557812eedab421c7 5238 unknown optional aic_0.1-1_amd64.buildinfo
+ c4bab5e43a3698a3747ee24b026013c0 3892 unknown optional aic_0.1-1.debian.tar.xz
+ 758922867888e4960c2e7399701cb9ab 4388 unknown optional aic_0.1-1_all.deb
+ b6ca7bec56f3135e9d2586a387e5e2c2 5238 unknown optional aic_0.1-1_amd64.buildinfo
 
 -----BEGIN PGP SIGNATURE-----
 
-iQFLBAEBCAA1FiEE23Oc1mYbwTGudkLNWaBVsT+bU9QFAlmrVwkXHHByb3RoZW9w
-aGFnZUBnbWFpbC5jb20ACgkQWaBVsT+bU9ThiAf/bgxWGqFQgk09mQ314Rdex+e/
-37eHPpz5CMj7uBYX0w3AE1OIJyE9gdJWfmfbgSiAHnfTXj2yfJd0oCHQO4uMtJC6
-yv8cdNfSaaEzUYWX2xB1WLtn0g8bZ+AFk+CfTRWrSJZNGfQALQDQ0kMjWfNPqGZD
-c3PF6PThIQpugZLEpE79lh+59V3Kk8fZpRiRel/5SOA3j7ubIVoQO52O6RS3ZAh2
-0g40hBmRJeJgMT8tAjFafhank/lWI9mrjZir5yX0ER/ZRFVUpcll17plvYCNgfh+
-fofFK931lCDq8BvNLuiqmOD2w/bVzUuHnhcW8hlrVyhkrQ7KMNH6jsUmUZY/BA==
-=JJiD
+iQFLBAEBCAA1FiEE23Oc1mYbwTGudkLNWaBVsT+bU9QFAlmvg/AXHHByb3RoZW9w
+aGFnZUBnbWFpbC5jb20ACgkQWaBVsT+bU9Sh7ggAlViaPUgHR9Mi26eQNUqvPpbU
+IbVamt7+BcvUT+k2RgUr0hYJoktM5XqsGASyI/20ahMImTy6418h8ql+qgtxqZWz
+EuLAawSqrx3sWVX2Hc53uCVcGmE0EBUI3+Rsiuj69nkQx/CU/coLSJ1je2Lf6vkY
+3Y8f+83lWCJ75X+rJMqqDEQoNmpt3ADuBdYxEOI8PnC6umhn7OyeA3CUjJNn5PBF
+0aUtw9B7cITmSGww254NfQJAWk0bABjrIHKy4jwqo+vcIr0P9wG8YiRTAMwgiwb+
+qjPBe/xQlvk27tGk1lo+GfqVQ54d/UjpyOCss+F59sP5G3k70uTdx8VCWR4HsQ==
+=M88K
 -----END PGP SIGNATURE-----

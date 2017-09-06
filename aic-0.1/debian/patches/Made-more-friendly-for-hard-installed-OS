@@ -1,0 +1,58 @@
+Description: Made more friendly for hard installed OS
+Added ability to flag multiple directories to be added to the ignore list, and added additional house cleaning.
+ .
+ aic (0.1-1) unstable; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Author: Colby Connolly <protheophage@gmail.com>
+
+---
+The information above should follow the Patch Tagging Guidelines, please
+checkout http://dep.debian.net/deps/dep3/ to learn about the format. Here
+are templates for supplementary fields that you might want to add:
+
+Origin: <vendor|upstream|other>, <url of original patch>
+Bug: <url in upstream bugtracker>
+Bug-Debian: https://bugs.debian.org/<bugnumber>
+Bug-Ubuntu: https://launchpad.net/bugs/<bugnumber>
+Forwarded: <no|not-needed|url proving that it has been forwarded>
+Reviewed-By: <name and email of someone who approved the patch>
+Last-Update: 2017-09-06
+
+--- aic-0.1.orig/aic
++++ aic-0.1/aic
+@@ -77,13 +77,22 @@ findmnt -M $(grep -o '/media/root/device
+ #Remove the destination device from the imaging list
+ grep -vwE "$(grep -o "/dev/sd." /root/Documents/flagd.txt)" /root/Documents/devs.txt > /root/Documents/fdevs.txt
+ 
+-#Find live usb
++#Find device(s) to be ignored
+ find /media/root -maxdepth 2 -iname 'iignoree_meee' > /root/Documents/live.txt
+ 
+-#Identify live usb
+-findmnt -M $(grep -o '/media/root/device..' /root/Documents/live.txt) -o source > /root/Documents/flagd.txt
++#Create Counters
++l=$(grep -c '.' /root/Documents/live.txt
++m=1
++
++#Identify device(s) to be ignored
++touch /root/Documents/flagd.txt
++while [ $m -le $l ]
++do
++findmnt -M $(head -$m /root/Documents/live.txt | tail -1 | grep -o '/media/root/device..') -o source >> /root/Documents/flagd.txt
++m=`expr $m + 1`
++done
+ 
+-#Remove live usb from imaging list
++#Remove ignored device(s) from imaging list
+ grep -vwE "$(grep -o "/dev/sd." /root/Documents/flagd.txt)" /root/Documents/fdevs.txt > /root/Documents/devs.txt
+ 
+ #Clean up imaging list
+@@ -121,5 +130,7 @@ rm -f /root/Documents/flagd.txt
+ rm -f /root/Documents/fdevs.txt
+ rm -f /root/Documents/live.txt
+ rm -f /root/Documents/ilist.txt
++umount -a
++rmdir /media/root/dev*
+ 
+ #Written by Colby Connolly 2016
