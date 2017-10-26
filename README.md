@@ -10,4 +10,4 @@ Finds all storage devices attached to the computer, and forensically images them
 	1)All devices, excluding the destination device, are mounted in a read only state.
 	2)None of the files are altered from their original state.
 	3)The created images are created in a raw/dd format.
-4)The input device and output images are hashed for integrity.
+	4)The input device and output images are hashed for integrity.
